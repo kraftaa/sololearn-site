@@ -1,0 +1,295 @@
+html {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Handlee', cursive;
+    font-size: 13pt;
+    background-color: #efefef;
+    padding: 10px;
+    margin: 0;
+}
+h1 {
+    font-size: 15pt;
+    color: #20bcd5;
+    text-align: center;
+    padding: 18px 0 18px 0;
+    margin: 0 0 10px 0;
+}
+h1 span {
+    border: 4px dashed #20bcd5;
+    padding: 10px;
+}
+p {
+    padding: 0;
+    margin: 0;
+}
+.img-circle {
+    border: 3px solid white;
+    border-radius: 50%;
+}
+.section {
+    background-color: #fff;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+#header {
+    background-image:
+    url("https://www.thatswhatchesaid.net/wp-content/uploads/2017/12/Free-Santa-Hat-Grinch-Cut-File-for-Ornament-750x500.jpg");
+/*       url("https://www.sololearn.com/Uploads/header.jpg"); */
+    background-size: cover;
+}
+#header img {
+    display: block;
+    width: 80px;
+    height: 80px;
+    margin: auto;
+}
+#header p {
+    font-size: 25pt;
+    color: #3b464c;
+    padding-top: 5px;
+    margin: 0;
+    font-weight: bold;
+    text-align: center;
+}
+
+.quote {
+    font-size: 12pt;
+    text-align: right;
+    margin-top: 10px;
+}
+table {
+    width: 100%;
+    font-size: 11pt;
+}
+table, th, td {
+    border: 2px solid #cecece;
+    border-collapse: collapse;
+    text-align: center;
+    table-layout: fixed;
+}
+.selected {
+    background-color: #f36f48;
+    font-weight: bold;
+    color: white;
+}
+li {
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+progress {
+    width: 70%;
+    height: 20px;
+    color: #3fb6b2;
+    background: #efefef;
+}
+progress::-webkit-progress-bar {
+    background: #efefef;
+}
+progress::-webkit-progress-value {
+    background: #3fb6b2;
+}
+progress::-moz-progress-bar {
+    color: #3fb6b2;
+    background: #efefef;
+}
+iframe, audio {
+    display: block;
+    margin: 0 auto;
+    border: 3px solid #3fb6b2;
+    width: 270px;
+    height: 150px;
+}
+hr {
+    border: 0;
+    height: 1px;
+    background: #f36f48;
+}
+form {
+    text-align: center;
+    margin-top: 0;
+}
+.submit {
+    background-color: #3fb6b2;
+    padding: 12px 45px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #ffffff;
+    border: none;
+    outline: none;
+    margin: 0;
+    font-weight: bold;
+}
+.submit:hover {
+    background-color: #43a09d;
+}
+textarea {
+    height: 100px;
+}
+input, textarea {
+    margin-bottom: 10px;
+    font-size: 11pt;
+    padding: 15px 10px 10px;
+    border: 1px solid #cecece;
+    background-color: #efefef;
+    color: #787575;
+    border-radius: 5px;
+    width: 70%;
+    outline: none;
+}
+.face {
+    transform: scale(0.4);
+    margin: 0 auto;
+    display: block;
+    margin-top: -35px;
+    margin-bottom: -25px;
+}
+#contacts img {
+    height: 50px;
+    width: 50px;
+    margin-left: 7px;
+    margin-right: 7px;
+}
+#contacts a {
+    text-decoration: none;
+}
+#contacts img:hover {
+    opacity: 0.8;
+}
+#contacts {
+    text-align: center;
+}
+.copyright {
+    font-size: 8pt;
+    text-align: right;
+    padding-bottom: 10px;
+    color: grey;
+}
+#canvas1 {
+  text-align: center;
+}
+canvas {
+  align: center;
+  display: inline;
+  margin: 0 0 0 40px;
+}
+#drop-down {
+  width: 65%;
+  color: #20bcd5;
+  margin: 0 0 0 40px;
+}
+.flexbox-nav {
+  display: flex;
+  align-items: center;
+  flex-flow: column;
+  font-size: 20pt;
+}
+/* .flexbox-nav > a:nth-child(5) {
+    margin-left: auto;
+
+} */
+nav {
+/*   text-align:center; */
+  font-size: 20pt;
+/*   align-items: center; */
+}
+
+#map {
+  margin:0 auto;
+  width: 100%;
+  height: 250px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 100px auto;
+    grid-template-rows: 160px 40px 80px;
+    grid-gap: 10px;
+
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-auto-rows: 100px;
+}
+.container div {
+  border: solid blue;
+}
+
+.upper { text-transform: uppercase; }
+.lower { text-transform: lowercase; }
+.capitalize { text-transform: capitalize; }
+
+.block {
+  border: 1px solid black;
+  padding: 10px;
+  display: inline-block;
+
+  /* Below is the border radius */
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -o-border-radius: 10px;
+  border-radius: 10px;
+}
+
+.left { text-align: left; }
+.right { text-align: right; }
+.center { text-align: center; }
+.justified { text-align: justify; }
+
+
+.shadow1 { text-shadow: 5px 5px 1px red; }
+.shadow2 { text-shadow: 0 0 5px blue; }
+.shadow3 { text-shadow: -10px -10px 5px green; }
+
+.border-dashed {
+  border-color: red;
+  margin: 4px;
+  padding: 4px;
+  border-width: 3px;
+  border-style: dashed;
+  border-radius: 4px 10px 0;
+}
+#transform {
+  padding-right: 8px;
+  padding-bottom: 8px;
+  padding-left: 8px;
+}
+
+.box {
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+  border: 1px dashed #000;
+  background-color: #d5d5d5;
+  margin: 10px;
+}
+
+.box2 { box-shadow: 10px 10px 1px #8c1515; }
+
+.filter-grayscale { filter: grayscale(100%); }
+
+.rotate-z {
+  transform: rotateZ(45deg);
+}
+
+
+.item-translated {
+  flex: 0 0 200px;
+  border: 1px solid black;
+  height: 200px;
+  margin: 5px;
+  /* A flexbox inside a flexbox
+     to create vertical text inside
+     a regular flex item */
+  display: flex;
+  margin: 0 0 50px 40px;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  transition: transform 1.5s ease;
+  background-color: #8c1515;
+  color: #fff;
+  box-shadow: -15px -15px 0 black;
+  transform: translate(-185px, 30px);
+}
+
